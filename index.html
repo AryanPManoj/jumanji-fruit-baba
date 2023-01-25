@@ -1,0 +1,35 @@
+<!DOCTYPE html><html lang="en"><head>
+  <script src="libraries/p5.js"></script>
+  <script src="libraries/p5.dom.min.js"></script>
+  <script src="libraries/p5.play.js"></script>
+
+  <script src="js/form.js"></script>
+<!--Link game.js and player.js-->
+<script src="js/game.js"></script>
+<script src="js/player.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-app.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/8.4.2/firebase-database.js"></script>
+<script>
+<!--Add database config here below-->
+var firebaseConfig = {
+  apiKey: "AIzaSyB2j6dxRLKm4EDLp3XZZrJea3L5aGGgadE",
+  authDomain: "jumanji-fruit-collector.firebaseapp.com",
+  databaseURL: "https://jumanji-fruit-collector-default-rtdb.firebaseio.com",
+  projectId: "jumanji-fruit-collector",
+  storageBucket: "jumanji-fruit-collector.appspot.com",
+  messagingSenderId: "423606388144",
+  appId: "1:423606388144:web:3636053132a358d41f4275"
+};
+firebase.initializeApp(firebaseConfig)
+  </script>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="utf-8">
+
+</head>
+<body>
+  <script src="sketch.js"></script>
+
+
+
+</body></html>
